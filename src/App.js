@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
 import { Component, Fragment } from 'react';
+import Sayyaa from './Sayyaa';
+import Number3 from './Number3';
+import EventPratice from './EventPratice';
+import Number3Class from './Number3Class';
+import EventPracticeFC from './EventPracticeFC';
 //import { MyComponent, MyComponent2, MyComponent3 } from './comp';
 //import { MyComponent } from './comp/MyComponent';
 
-import Counter from './Counter';
 // function App() {
 //   const name = 'undefined';
 
@@ -28,7 +32,7 @@ class App extends Component {
     //const name = '지역변수 홍길동';
     return (
       <div className="react">
-        <Counter number={1} />
+        <EventPracticeFC />
       </div>
     );
   }
